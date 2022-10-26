@@ -1,14 +1,14 @@
-import React from "react";
-import { useAppContext } from "../appContext";
-import { Link } from "react-scroll";
+import React from 'react'
+import { useAppContext } from '../appContext'
+import { Link } from 'react-scroll'
 // Components
-import { Container, Nav, Navbar } from "react-bootstrap";
-import { FixedNavSpacer, ToggleSwitch } from "./globalStyledComponents";
+import { Container, Nav, Navbar } from 'react-bootstrap'
+import { FixedNavSpacer, ToggleSwitch } from './globalStyledComponents'
 // Images
-import Logo from "../images/logo.svg";
+// import Logo from "../images/logo.svg";
 
 export default function NavBar() {
-  const { theme, isExpanded, toggleExpanded, closeExpanded } = useAppContext();
+  const { theme, isExpanded, toggleExpanded, closeExpanded } = useAppContext()
 
   return (
     <>
@@ -18,18 +18,18 @@ export default function NavBar() {
         collapseOnSelect={true}
         expand="lg"
         expanded={isExpanded}
-        bg={theme === "light" ? "light" : "dark"}
-        variant={theme === "light" ? "light" : "dark"}
+        bg={theme === 'light' ? 'light' : 'dark'}
+        variant={theme === 'light' ? 'light' : 'dark'}
         fixed="top"
       >
         <Container>
           <Navbar.Brand>
-            <img
+            {/* <img
               alt="React Logo"
               src={Logo}
               width="35"
               height="35"
-              className="d-inline-block align-top bg-dark rounded-circle nav-logo"
+              className="d-inline-block align-top bg-dark rounded-circle nav-logo" */}
             />
           </Navbar.Brand>
           <Navbar.Toggle
@@ -40,7 +40,7 @@ export default function NavBar() {
             <Nav navbarScroll className="me-auto">
               <Nav.Item>
                 <Link
-                  to={"Home"}
+                  to={'Home'}
                   spy={true}
                   activeClass="active"
                   className="nav-link"
@@ -51,7 +51,7 @@ export default function NavBar() {
               </Nav.Item>
               <Nav.Item>
                 <Link
-                  to={"About"}
+                  to={'About'}
                   spy={true}
                   activeClass="active"
                   className="nav-link"
@@ -62,7 +62,7 @@ export default function NavBar() {
               </Nav.Item>
               <Nav.Item>
                 <Link
-                  to={"Skills"}
+                  to={'Skills'}
                   spy={true}
                   activeClass="active"
                   className="nav-link"
@@ -73,7 +73,7 @@ export default function NavBar() {
               </Nav.Item>
               <Nav.Item>
                 <Link
-                  to={"Projects"}
+                  to={'Projects'}
                   spy={true}
                   activeClass="active"
                   className="nav-link"
@@ -84,7 +84,7 @@ export default function NavBar() {
               </Nav.Item>
               <Nav.Item>
                 <Link
-                  to={"Contact"}
+                  to={'Contact'}
                   spy={true}
                   activeClass="active"
                   className="nav-link"
@@ -101,5 +101,5 @@ export default function NavBar() {
         </Container>
       </Navbar>
     </>
-  );
+  )
 }

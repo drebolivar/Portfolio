@@ -5,7 +5,7 @@ import styled from 'styled-components'
 // Icons
 import { FaChevronCircleDown } from 'react-icons/fa'
 // Media
-import Logo from '../images/logo.svg'
+// import Logo from '../images/logo.svg'
 import { Light, Dark } from '../data'
 // Components
 import { Col, Container, Row } from 'react-bootstrap'
@@ -94,11 +94,11 @@ export default function Hero() {
             </div>
           </Col>
           <Col className="d-none d-md-block">
-            <img
+            {/* <img
               src={Logo}
               alt="React Logo"
               className="w-75 mx-auto hero-img"
-            />
+            /> */}
           </Col>
         </Row>
         <Row className="align-items-end down-container">
