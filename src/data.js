@@ -142,7 +142,7 @@ export const resume =
 export const filteredProjects = [
   'CU-L8R',
   'fortuna',
-  'RPS-gurui',
+  'rps-gurui',
   'Nostalgia_Game',
   'thriftR'
 ]
