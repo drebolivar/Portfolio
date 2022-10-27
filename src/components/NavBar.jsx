@@ -29,8 +29,8 @@ export default function NavBar() {
               src={Logo}
               width="35"
               height="35"
-              className="d-inline-block align-top bg-dark rounded-circle nav-logo" */}
-            />
+              className="d-inline-block align-top bg-dark rounded-circle nav-logo"
+            /> */}
           </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="responsive-navbar-nav"

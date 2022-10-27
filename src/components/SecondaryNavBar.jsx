@@ -1,16 +1,16 @@
-import { useState } from "react";
-import { useAppContext } from "../appContext";
-import { Link, useLocation } from "react-router-dom";
+import { useState } from 'react'
+import { useAppContext } from '../appContext'
+import { Link, useLocation } from 'react-router-dom'
 // Components
-import { Container, Nav, Navbar } from "react-bootstrap";
-import { ToggleSwitch, FixedNavSpacer } from "./globalStyledComponents";
+import { Container, Nav, Navbar } from 'react-bootstrap'
+import { ToggleSwitch, FixedNavSpacer } from './globalStyledComponents'
 // Images
-import Logo from "../images/logo.svg";
+// import Logo from "../images/logo.svg";
 
 export default function SecondaryNavBar() {
-  const [isExpanded, setExpanded] = useState(false);
-  const { pathname } = useLocation();
-  const { theme } = useAppContext();
+  const [isExpanded, setExpanded] = useState(false)
+  const { pathname } = useLocation()
+  const { theme } = useAppContext()
 
   return (
     <>
@@ -20,19 +20,19 @@ export default function SecondaryNavBar() {
         collapseOnSelect={true}
         expand="lg"
         expanded={isExpanded}
-        bg={theme === "light" ? "white" : "dark"}
-        variant={theme === "light" ? "light" : "dark"}
+        bg={theme === 'light' ? 'white' : 'dark'}
+        variant={theme === 'light' ? 'light' : 'dark'}
         fixed="top"
       >
         <Container>
           <Navbar.Brand>
-            <img
+            {/* <img
               alt="React Logo"
               src={Logo}
               width="30"
               height="30"
               className="d-inline-block align-top bg-dark rounded-circle nav-logo"
-            />
+            /> */}
           </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="responsive-navbar-nav"
@@ -43,7 +43,7 @@ export default function SecondaryNavBar() {
               <Nav.Item>
                 <Link
                   to="/"
-                  className={pathname === "/" ? "nav-link active" : "nav-link"}
+                  className={pathname === '/' ? 'nav-link active' : 'nav-link'}
                 >
                   Home
                 </Link>
@@ -52,9 +52,9 @@ export default function SecondaryNavBar() {
                 <Link
                   to="/All-Projects"
                   className={
-                    pathname === "/All-Projects"
-                      ? "nav-link active"
-                      : "nav-link"
+                    pathname === '/All-Projects'
+                      ? 'nav-link active'
+                      : 'nav-link'
                   }
                 >
                   All Projects
@@ -68,5 +68,5 @@ export default function SecondaryNavBar() {
         </Container>
       </Navbar>
     </>
-  );
+  )
 }
