@@ -143,8 +143,7 @@ export const filteredProjects = [
   'CU-L8R',
   'fortuna',
   'Ro-Sham-Bo-Gurui',
-  'Nostalgia_Game',
-  'thriftR'
+  'Nostalgia_Game'
 ]
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 13-14)
