@@ -142,7 +142,7 @@ export const resume =
 export const filteredProjects = [
   'CU-L8R',
   'fortuna',
-  'rps-gurui',
+  'Ro-Sham-Bo-Gurui',
   'Nostalgia_Game',
   'thriftR'
 ]
@@ -158,7 +158,7 @@ export const projectCardImages = [
     image: fortuna
   },
   {
-    name: 'RPS-gurui',
+    name: 'Ro-Sham-Bo-Gurui',
     image: RPS
   },
   {
