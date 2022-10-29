@@ -24,7 +24,7 @@ import {
 // Projects Images (add your images to the images directory and import below)
 import CUL8R from './images/cul8r.png'
 import Nostalgia from './images/nostalgia_game.png'
-import RPS from './images/rpsgurui.png'
+import RPS from './images/roshambogurui.png'
 import fortuna from './images/fortuna.png'
 
 // Hero Images (add your images to the /images directory with the same names)
