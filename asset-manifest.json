@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.76031048.css",
-    "main.js": "/portfolio/static/js/main.2be95338.js",
+    "main.js": "/portfolio/static/js/main.b78fe40d.js",
     "static/media/rpsgurui.png": "/portfolio/static/media/rpsgurui.cd3cbf03d3a70ec2420c.png",
     "static/media/cul8r.png": "/portfolio/static/media/cul8r.0c0e6a38aab5249f6739.png",
     "static/media/nostalgia_game.png": "/portfolio/static/media/nostalgia_game.d0c092200753c5561b87.png",
@@ -13,10 +13,10 @@
     "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/portfolio/index.html",
     "main.76031048.css.map": "/portfolio/static/css/main.76031048.css.map",
-    "main.2be95338.js.map": "/portfolio/static/js/main.2be95338.js.map"
+    "main.b78fe40d.js.map": "/portfolio/static/js/main.b78fe40d.js.map"
   },
   "entrypoints": [
     "static/css/main.76031048.css",
-    "static/js/main.2be95338.js"
+    "static/js/main.b78fe40d.js"
   ]
 }
