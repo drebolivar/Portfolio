@@ -22,7 +22,7 @@ import {
 } from 'react-icons/si'
 
 // Projects Images (add your images to the images directory and import below)
-import CUL8R from './images/cul8r.png'
+import CUL8R from './images/CUL8R2.png'
 import Nostalgia from './images/nostalgia_game.png'
 import RPS from './images/roshambogurui.png'
 import fortuna from './images/fortuna.png'
