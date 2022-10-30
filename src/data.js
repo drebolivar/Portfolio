@@ -25,8 +25,8 @@ import {
 import CUL8R from './images/CUL8R2.png'
 import Nostalgia from './images/nostalgia_game.png'
 import RPS from './images/roshambogurui.png'
-import fortuna from './images/fortuna2.png'
-import TTT from './images/TTT.png'
+import fortuna from './images/fortuna3.png'
+import TTT from './images/TTT2.png'
 
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from './images/code-lightmode.jpg'
@@ -145,7 +145,7 @@ export const filteredProjects = [
   'fortuna',
   'Ro-Sham-Bo-Gurui',
   'Nostalgia_Game',
-  'Tic_Tac_Toe'
+  'tic-tac-toe'
 ]
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 13-14)
@@ -167,7 +167,7 @@ export const projectCardImages = [
     image: Nostalgia
   },
   {
-    name: 'Tic_Tac_Toe',
+    name: 'tic-tac-toe',
     image: TTT
   }
 ]
