@@ -1,6 +1,6 @@
 # Andres 'Dre' Bolivar Portfolio
 ### Author: Andres Bolivar
-## [Instagram](http://www.instagram.com/dredose) || [LinkedIn](http://www.linkedin.com/in/drebolivar) || [GitHub](https://github.com/drebolivar)
+## [Github](http://www.github.com/drebolivar) | [Portfolio](http://drebolivar.github.io/portfolio) | [LinkedIn](http://www.linkedin.com/in/drebolivar) | [Instagram](http://www.instagram.com/dredose) 
 
 ---
 
@@ -19,4 +19,4 @@ A portfolio site meant to highlight skills, resume, and projects.
 ---
 
 ## **_Screenshots:_**
-![Screenshot](https://i.imgur.com/yAQyYmb.png)
+![Screenshot](src/images/portfoliosc.png)
