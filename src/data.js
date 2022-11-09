@@ -145,7 +145,7 @@ export const filteredProjects = [
   'fortuna',
   'Ro-Sham-Bo-Gurui',
   'Nostalgia_Game',
-  'tic-tac-toe'
+  'tictactoe'
 ]
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 13-14)
@@ -167,7 +167,7 @@ export const projectCardImages = [
     image: Nostalgia
   },
   {
-    name: 'tic-tac-toe',
+    name: 'tictactoe',
     image: TTT
   }
 ]
