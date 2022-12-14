@@ -134,7 +134,7 @@ export const skillData = [
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
 export const resume =
-'https://drive.google.com/file/d/1Kv-h3WqQGCwGjrKWNWvu-IQYGQKA4c39/view?usp=sharing'
+  'https://drive.google.com/file/d/1Kv-h3WqQGCwGjrKWNWvu-IQYGQKA4c39/view?usp=sharing'
 
 /* Projects
  ************************************************************** 
@@ -142,7 +142,7 @@ export const resume =
 */
 export const filteredProjects = [
   'CU-L8R',
-  'fortuna',
+  'fortuna-frontend',
   'Ro-Sham-Bo-Gurui',
   'Nostalgia_Game',
   'tictactoe'
@@ -155,7 +155,7 @@ export const projectCardImages = [
     image: CUL8R
   },
   {
-    name: 'fortuna',
+    name: 'fortuna-frontend',
     image: fortuna
   },
   {
